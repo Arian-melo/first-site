@@ -1,40 +1,46 @@
-# First Site
+# First Site – Responsive Front-End Project
 
-Study project built with **HTML, CSS, and JavaScript**, focused on real-world layouts and navigation behavior (UX).
+This project is a responsive front-end website built with **HTML, CSS, and Vanilla JavaScript**, focusing on real-world layout structure and user experience (UX) behaviors.
 
-The main goal of this project is to strengthen frontend fundamentals using **vanilla code**, without frameworks, applying good practices and clean structure.
+The main goal of this project is to practice and demonstrate core front-end fundamentals used in modern websites, including responsive navigation, UI state control, and scroll-based interactions.
 
 ---
 
-## 🔗 Live Demo
+## 🚀 Live Demo
 
-Access the live site on GitHub Pages:  
-👉 https://arian-melo.github.io/first-site/
+🔗 https://arian-melo.github.io/first-site/
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Semantic HTML5
-- CSS3 (Flexbox, Grid, responsive design)
-- JavaScript (ES6+)
-- Git & GitHub
-- GitHub Pages (deployment)
+- **HTML5** – semantic structure
+- **CSS3**
+  - Flexbox
+  - Responsive layout
+  - Transitions and animations
+- **JavaScript (Vanilla)**
+  - DOM manipulation
+  - Event handling
+  - UI state control with CSS classes
 
 ---
 
 ## ✨ Features
 
 - Responsive header and navigation
-- Mobile menu with hamburger button
-- Overlay to close the mobile menu
-- Menu close on ESC key and window resize
+- Mobile menu with:
+  - Hamburger button
+  - Overlay
+  - ESC key support
+  - Auto-close on resize
 - Smart header behavior based on scroll:
   - Visible at the top of the page
   - Hides on scroll down
   - Reappears on scroll up
-- Layouts built with Flexbox and Grid
-- Organized and scalable project structure
+  - Tolerance to avoid flickering
+- Clean and organized project structure
+- Cross-device friendly layout
 
 ---
 
@@ -42,11 +48,12 @@ Access the live site on GitHub Pages:
 
 ```text
 first-site/
-├── README.md
+├── 
 ├── project/
 │   ├── index.html
 │   ├── assets/
 │   │   ├── css/
 │   │   ├── js/
 │   │   └── img/
-│   └── docs/
+│   ├── docs/
+│   └── README.md
